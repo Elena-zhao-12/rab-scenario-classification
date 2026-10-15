@@ -1,1 +1,5 @@
-Generated outputs are local and ignored by Git. No historical company results are included.
+# Results
+
+Each pipeline run writes assignments, labels, configuration and evaluation
+outputs below runs/. Summaries and semantic evaluation use summaries/ and
+semantic/. Generated outputs are ignored by Git.

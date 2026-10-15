@@ -30,5 +30,4 @@ Davies-Bouldin, so interpret those scores alongside coverage. Default experiment
 discovery requires one directory per identifier; repeated identifiers must be
 evaluated using an isolated results root.
 
-Raw-log acquisition, private service connectivity and deployment infrastructure
-are outside this edition.
+Prepare a flat directory of key frames before running embedding extraction.

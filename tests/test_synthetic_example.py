@@ -1,4 +1,4 @@
-"""Public-edition tests use synthetic inputs only."""
+"""Integration checks using synthetic inputs."""
 from pathlib import Path
 import csv
 import importlib.util
@@ -7,7 +7,7 @@ import unittest
 from rab_scenario.evaluation.semantic_evaluation import evaluate
 
 ROOT = Path(__file__).resolve().parents[1]
-class PublicExampleTests(unittest.TestCase):
+class SyntheticExampleTests(unittest.TestCase):
     def test_synthetic_inputs_and_semantic_evaluation(self):
         spec = importlib.util.spec_from_file_location("synthetic_example", ROOT / "scripts/create_synthetic_example.py")
         module = importlib.util.module_from_spec(spec)

@@ -27,15 +27,9 @@ are geometrically coherent and interpretable.
 trigger events -> key frames -> frozen embeddings -> clusters -> inspection
 ```
 
-The public implementation starts with user-supplied key frames or embeddings.
-Company-specific event retrieval and key-frame extraction are excluded.
+The pipeline takes a directory of key frames or precomputed embeddings.
 
-## Results at a glance
-
-The original dataset, numerical experiment results and manual project
-annotations are not included in this public edition. The repository provides
-the methods and a synthetic example, rather than reproducing the original
-experimental findings.
+## Methods and evaluation
 
 | Component | Available methods | Evaluation |
 | --- | --- | --- |
@@ -64,9 +58,8 @@ Visual coherence alone does not establish functional agreement.
     docs/                    Portable usage documentation
     local/                   Local inspection views and temporary files
 
-Only the explanatory README files under data/ and results/ are tracked.
-The public edition contains no recorded images, real event identifiers,
-production embeddings, original annotations or historical experiment outputs.
+Store input data under data/ and generated outputs under results/.
+Dataset files and run outputs are ignored by Git.
 
 ## Getting started
 
@@ -123,13 +116,6 @@ These inputs and generated outputs remain local.
 - [Navigation](docs/README.md)
 - [Installation and examples](docs/getting-started.md)
 - [Pipeline and configuration](docs/pipeline.md)
-- [Sharing policy](docs/sharing.md)
-- [Public-content review](docs/public-audit.md)
-
-Company-specific acquisition tools, infrastructure details, datasets and
-historical results are excluded from this edition. The repository was created
-without the original Git history. Exported file hashes are listed in
-PUBLIC_CONTENTS.json.
 
 Each event uses one frame, so temporal context and other sensing modalities
 remain outside the representation. Clusters support inspection and do not

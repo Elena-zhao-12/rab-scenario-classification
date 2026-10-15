@@ -97,7 +97,7 @@ def load_assignments(assignment_path):
 
 
 def load_annotations(annotation_path, assignments):
-    """Join explicitly named images to assignments without private ID conventions."""
+    """Join annotations to cluster assignments by image name."""
     rows, mismatches, missing = [], [], []
     with annotation_path.open(encoding="utf-8-sig", newline="") as file:
         for row in csv.DictReader(file):
