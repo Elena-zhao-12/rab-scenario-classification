@@ -7,7 +7,7 @@ This repository accompanies my master's thesis project, carried out at
 **Volvo Cars during the Spring Semester of 2026**.
 
 The thesis is archived in the **Chalmers Open Digital Repository (ODR)**:
-[Read the master's thesis](https://hdl.handle.net/20.500.12380/312488).
+[**Scenario Classification via Imagery and Video Data for ADAS Trigger Analysis**](https://hdl.handle.net/20.500.12380/312488).
 Please use this permanent identifier when citing the thesis.
 
 **Scope.** The pipeline groups visually similar trigger events so that they can
