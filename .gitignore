@@ -1,0 +1,22 @@
+# Private acquisition tools and historical paths
+**/*_internal/
+src/rab_scenario/data_preparation/
+# User inputs and generated outputs
+data/**
+!data/README.md
+results/**
+!results/README.md
+local/
+tests/fixtures/
+.git/
+.venv/
+myvenv/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+*.hdf5
+*.out
+*.log
+*.bak*
+*~

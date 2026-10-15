@@ -1,0 +1,12 @@
+# The pipeline runs on Linux; store all text with LF endings.
+* text=auto eol=lf
+
+# Binary artifacts: never touch the bytes.
+*.npy binary
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.pdf binary
+*.pptx binary
+*.zvlf binary
+*.hdf5 binary
